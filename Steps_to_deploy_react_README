@@ -1,0 +1,19 @@
+Steps:-
+
+      * npm install gh-pages --save
+                   
+      * git remote add origin "add git remote repo ssh link"
+      
+      Package.json:-
+                add "homepage" : "https://USERNAME.github.io/REPO_NAME"
+                
+        Inside Scripts:-
+        
+                add "predeploy" : "npm run build",
+                    "deploy" : "gh-pages -d build"
+                    
+       * npm run deploy
+       
+       
+       
+             
